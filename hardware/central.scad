@@ -5,7 +5,7 @@ $fs = 0.4;
 
 module grup(){
     
-    size_hole=2.5;
+    size_hole=2.75;
     
     translate([0,0,-10]){
         cylinder(h=30,r=size_hole);
@@ -24,7 +24,7 @@ module grup(){
 
 
 difference(){
-    cube([150,180,2.5]);
+    cube([150,180,6]);
     translate([9.75,4,0]){
         grup();
     }
